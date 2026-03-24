@@ -2,7 +2,6 @@
 
 export const displayMap = (locations) => {
   mapboxgl.accessToken = process.env.MAPBOX_KEY;
-
   const map = new mapboxgl.Map({
     container: 'map', // container ID
     style: 'mapbox://styles/leopinheiro704/cmmyunylr000201qmeyrt3zd5',
